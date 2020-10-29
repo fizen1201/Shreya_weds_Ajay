@@ -1,4 +1,6 @@
-﻿(function(){
+﻿AOS.init();
+
+(function(){
   var myDiv = document.getElementById("se-pre-con"),
 
     show = function(){

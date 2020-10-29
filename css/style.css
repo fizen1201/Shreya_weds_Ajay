@@ -804,7 +804,8 @@ header {
 /*# 11. Where&When*/
 
 .map{
-  margin: auto 1%;
+  /* margin: auto 1%; */
+  width: 98%;
 }
 .when_where {
   background-size: cover;

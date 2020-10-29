@@ -22,10 +22,10 @@
     <!-- Color CSS -->
     <link href="css/pink.css" rel="stylesheet">
     <link rel="stylesheet" href="css/testStyle.css" rel="stylesheet">
-
     <!-- Google Fonts -->
     <link href='//fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -68,7 +68,7 @@
         <div class="home_txt" data-0="opacity:1" data-top-bottom="opacity:0">
 
             <!-- Intro Text -->
-            <div class="box">
+            <div class="box ">
                 <div class="title1 title1_2">Save the Date!</div>
                 <div class="title1"><span>25  -  11</span></div>
                 <div class="title0">2020</div>
@@ -120,7 +120,7 @@
                 <div class="pattern1"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 location">
+                        <div class="col-lg-6 sm-12 location">
                             <div class="title1">Tangerine Hall</div>
                             <div class="title2">Lemon Tree Hotel</div>
                             <div class="title3">EDM Mall <br/> Ghaziabad <br/></div>
@@ -130,7 +130,7 @@
                             <div class="title4">November 25<br>2020</div>
                             <div class="pattern3"></div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 sm-12">
                             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14006.466231398948!2d77.3169653!3d28.6412521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44a812af24eae138!2sLemon%20Tree%20Hotel%2C%20East%20Delhi%20Mall!5e0!3m2!1sen!2sin!4v1599491002911!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
@@ -143,7 +143,10 @@
     <section class="our_story events" id="events">
         <h2>Our Events</h2>
         <!-- Wrapper -->
-        <div class="story_wrapper">
+        <div class="story_wrapper" data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000">
             <!-- Item -->
             <div class="story_item">
                 <div class="story_img parallax" data-image="img/sangeet.jpg">
@@ -228,7 +231,10 @@
     <!-- Events End -->
 
     <!-- Gallery -->
-    <section class="gallery" id="gallery">
+    <section class="gallery" id="gallery"  data-aos="flip-up"
+    data-aos-offset="200"
+    data-aos-delay="200"
+    data-aos-duration="1000">
         <h2>Our Gallery</h2>
         <div class="gallery_wrapper">
         <div class="gallery_item">
@@ -280,6 +286,8 @@
 
 
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
